@@ -1,0 +1,30 @@
+/* Set up basic container styles for positioning */
+.container {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  border: 2px solid #000;
+  background-color: #f0f0f0;
+  margin: 0 auto; /* Centers the box horizontally in the page */
+  top: 100px; /* Some space from top */
+}
+
+/* Style for each box */
+.box {
+  position: absolute;
+  background-color: lightblue;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+/* Center marker */
+.center-marker {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers the marker */
+}
